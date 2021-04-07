@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// MyPage a
+// MyPag
 class MyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -108,6 +108,11 @@ class MyPage extends StatelessWidget {
 }
 
 /*
+ - debugShowCheckedModeBanner : flutter App 위에 있는 Debug 표시 
+ - MaterialApp
+   - ThemeData
+   - home 제일 먼저 보여지는 페이지 (The widget for the default route of the app)
+================================================================================
  - App bar icon button
  - leading : 아이콘 버튼이나 간단한 위젯을 왼쪽에 배치할 때
  - action : 복수의 아이콘 버튼등을 오른쪽에 배치할 때
